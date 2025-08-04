@@ -1,0 +1,17 @@
+# Ignore specific large CSV files
+Obtained Data/pp-2018.csv
+Obtained Data/pp-2019.csv
+Obtained Data/pp-2020.csv
+Obtained Data/pp-2021.csv
+Obtained Data/pp-2022.csv
+Obtained Data/pp-2023.csv
+Obtained Data/pp-2024.csv
+Obtained Data/P2L.csv
+Obtained Data/bandwidth.csv
+
+# Optional: ignore all CSVs in that folder (if needed)
+# Obtained Data/*.csv
+
+# But include zipped CSVs
+!Obtained Data/*.csv.zip
+.Rproj.user
